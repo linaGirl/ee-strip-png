@@ -1,11 +1,10 @@
 {
       "name"                    : "ee-strip-png"
-    , "description"             : "remove all data parts from a png image except the required ones"
-    , "version"                 : "0.1.0"
+    , "description"             : "remove all not required data like metadata from a png image"
+    , "version"                 : "0.1.1"
     , "homepage"                : "https://github.com/eventEmitter/ee-strip-png"
     , "author"                  : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                 : "MIT"
-    , "os"                      : "linux"
     , "repository": {
         "url"                   : "https://github.com/eventEmitter/ee-strip-png"
     }
@@ -16,10 +15,10 @@
         "url"                   : "https://github.com/eventEmitter/ee-strip-png/issues"
     }
     , "dependencies": {
-          "ee-stream-buffer"    : "*"
-        , "ee-stream-collector" : "*"
-        , "ee-types"            : "*"
-        , "ee-log"              : "*"
+          "ee-stream-buffer"    : "0.1.x"
+        , "ee-stream-collector" : "0.1.x"
+        , "ee-types"            : "0.1.x"
+        , "ee-log"              : "0.2.x"
         , "png-guts"            : "0.0.2"
     }
     , "devDependencies": {}
