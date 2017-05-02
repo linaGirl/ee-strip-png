@@ -1,5 +1,7 @@
 # ee-strip-png
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-strip-png.svg)](https://greenkeeper.io/)
+
 remove all data parts from a png image except the required ones
 
 ## installation
