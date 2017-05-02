@@ -17,8 +17,8 @@
     , "dependencies": {
           "ee-stream-buffer"    : "0.1.x"
         , "ee-stream-collector" : "0.1.x"
-        , "ee-types"            : "0.1.x"
-        , "ee-log"              : "0.2.x"
+        , "ee-types"            : "~2.1.2"
+        , "ee-log"              : "~2.0.2"
         , "png-guts"            : "0.0.2"
     }
     , "devDependencies": {}
